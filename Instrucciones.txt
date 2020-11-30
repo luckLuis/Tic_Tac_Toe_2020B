@@ -4,3 +4,4 @@ Bienvenidos a TicTacToe, estas son las instrucciones
 2. El objetivo del juego es formar una linea recta o diagnal de la misma figura. 
 3. Cada jugador tiene un turno.
 4. Una vez completada la linea de 3 con la misma figura, el jugador ganará
+5. Es un juego de estrategia.
