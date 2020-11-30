@@ -272,8 +272,8 @@ public class TicTacToeApplication extends Application {
         this.turn = events == false;
     }
 
-    public String textPlayer(boolean turn) {
-        if (turn) {
+    public String textPlayer(boolean events) {
+        if (events) {
             return "X";
         }
         return "O";
