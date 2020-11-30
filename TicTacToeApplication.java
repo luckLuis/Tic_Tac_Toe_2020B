@@ -268,8 +268,8 @@ public class TicTacToeApplication extends Application {
         }
     }
 
-    public void changeTurn(boolean turn) {
-        this.turn = turn == false;
+    public void changeTurn(boolean events) {
+        this.turn = events == false;
     }
 
     public String textPlayer(boolean turn) {
