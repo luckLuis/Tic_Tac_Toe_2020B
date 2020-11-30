@@ -264,7 +264,7 @@ public class TicTacToeApplication extends Application {
             stop();
         } else if (button1Index == 1 && button2Index == 1 && button3Index == 1 && button4Index == 1 && button5Index == 1 && button6Index == 1
                 && button7Index == 1 && button8Index == 1 && button9Index == 1) {
-            text.setText("The end!");
+            text.setText("Game Over");
         }
     }
 
