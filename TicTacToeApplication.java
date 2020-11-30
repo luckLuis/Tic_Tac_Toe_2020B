@@ -293,7 +293,9 @@ public class TicTacToeApplication extends Application {
         return "O";
     }
 
-    @Override
+   
+ @Override
+//sobreescribo la funcion stop, para modificar los valores de los botones
     public void stop() {
         button1Cont = 1;
         button2Cont = 1;
