@@ -1,5 +1,5 @@
 Bienvenidos a TicTacToe, estas son las instrucciones 
- 
+
 1. Existen 2 jugadores: O y X  
 2. El objetivo del juego es formar una linea recta o diagnal de la misma figura. 
 3. Cada jugador tiene un turno.
