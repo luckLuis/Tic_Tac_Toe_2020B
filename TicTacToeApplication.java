@@ -233,7 +233,7 @@ public class TicTacToeApplication extends Application {
 
         Scene scene = new Scene(layout1);
         window.setScene(scene);
-        window.setTitle("Tic Tac Toe App");
+        window.setTitle("Play: Tic Tac Toe");
         window.show();
     }
 
@@ -249,8 +249,8 @@ public class TicTacToeApplication extends Application {
                 || (((btn7.getText().equals(btn5.getText())) && (btn5.getText().equals(btn3.getText()))) && (btn7.getText() != " "))) {
             text.setText("The end!");
             stop();
-        } else if (button1Count == 1 && button2Count == 1 && button3Count == 1 && button4Count == 1 && button5Count == 1 && button6Count == 1
-                && button7Count == 1 && button8Count == 1 && button9Count == 1) {
+        } else if (button1Index == 1 && button2Index == 1 && button3Index == 1 && button4Index == 1 && button5Index == 1 && button6Index == 1
+                && button7Index == 1 && button8Index == 1 && button9Index == 1) {
             text.setText("The end!");
         }
     }
