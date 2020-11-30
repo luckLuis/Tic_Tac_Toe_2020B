@@ -13,15 +13,15 @@ import javafx.stage.Stage;
 public class TicTacToeApplication extends Application {
 
     private boolean turn = true;
-    private int button1Count = 0;
-    private int button2Count = 0;
-    private int button3Count = 0;
-    private int button4Count = 0;
-    private int button5Count = 0;
-    private int button6Count = 0;
-    private int button7Count = 0;
-    private int button8Count = 0;
-    private int button9Count = 0;
+    private int button1Index = 0;
+    private int button2Index = 0;
+    private int button3Index = 0;
+    private int button4Index = 0;
+    private int button5Index = 0;
+    private int button6Index = 0;
+    private int button7Index = 0;
+    private int button8Index = 0;
+    private int button9Index = 0;
 
     @Override
     public void start(Stage window) {
