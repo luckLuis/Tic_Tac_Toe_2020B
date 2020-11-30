@@ -233,7 +233,7 @@ public class TicTacToeApplication extends Application {
 
         Scene scene = new Scene(layout1);
         window.setScene(scene);
-        window.setTitle("Tic Tac Toe App");
+        window.setTitle("Play: Tic Tac Toe");
         window.show();
     }
 
