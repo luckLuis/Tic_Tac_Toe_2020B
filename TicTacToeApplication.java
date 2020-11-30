@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 
 public class TicTacToeApplication extends Application {
 
+<<<<<<< HEAD
     private boolean event = true;
     private int button1Index = 0;
     private int button2Index = 0;
@@ -22,6 +23,18 @@ public class TicTacToeApplication extends Application {
     private int button7Index = 0;
     private int button8Index = 0;
     private int button9Index = 0;
+=======
+    private boolean turn = true;
+    private int button1Cont = 0;
+    private int button2Cont = 0;
+    private int button3Cont = 0;
+    private int button4Cont = 0;
+    private int button5Cont = 0;
+    private int button6Cont = 0;
+    private int button7Cont = 0;
+    private int button8Cont = 0;
+    private int button9Cont = 0;
+>>>>>>> main
 
     @Override
     public void start(Stage window) {
@@ -268,6 +281,7 @@ public class TicTacToeApplication extends Application {
 
     @Override
     public void stop() {
+<<<<<<< HEAD
         button1Index = 1;
         button2Index = 1;
         button3Index = 1;
@@ -277,6 +291,17 @@ public class TicTacToeApplication extends Application {
         button7Index = 1;
         button8Index = 1;
         button9Index = 1;
+=======
+        button1Cont = 1;
+        button2Cont = 1;
+        button3Cont = 1;
+        button4Cont = 1;
+        button5Cont = 1;
+        button6Cont = 1;
+        button7Cont = 1;
+        button8Cont = 1;
+        button9Cont = 1;
+>>>>>>> main
     }
 
     public static void main(String[] args) {
