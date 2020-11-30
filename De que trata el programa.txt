@@ -1,1 +1,0 @@
-Es un juego un juego en el que dos jugadores buscan en turnos alternos para completar una fila, una columna o una diagonal con tres O o tres X dibujadas en los espacios de una cuadrícula de nueve cuadrados. El primero en completar ganará
