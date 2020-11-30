@@ -14,6 +14,7 @@ public class TicTacToeApplication extends Application {
 
 <<<<<<< HEAD
     private boolean turn = true;
+<<<<<<< HEAD
     private int Bntnicial = 0;
     private int button2Count = 0;
     private int button3Count = 0;
@@ -34,6 +35,17 @@ public class TicTacToeApplication extends Application {
     private int button7Index = 0;
     private int button8Index = 0;
     private int button9Index = 0;
+>>>>>>> main
+=======
+    private int button1Cont = 0;
+    private int button2Cont = 0;
+    private int button3Cont = 0;
+    private int button4Cont = 0;
+    private int button5Cont = 0;
+    private int button6Cont = 0;
+    private int button7Cont = 0;
+    private int button8Cont = 0;
+    private int button9Cont = 0;
 >>>>>>> main
 
     @Override
@@ -283,15 +295,15 @@ public class TicTacToeApplication extends Application {
 
     @Override
     public void stop() {
-        button1Count = 1;
-        button2Count = 1;
-        button3Count = 1;
-        button4Count = 1;
-        button5Count = 1;
-        button6Count = 1;
-        button7Count = 1;
-        button8Count = 1;
-        button9Count = 1;
+        button1Cont = 1;
+        button2Cont = 1;
+        button3Cont = 1;
+        button4Cont = 1;
+        button5Cont = 1;
+        button6Cont = 1;
+        button7Cont = 1;
+        button8Cont = 1;
+        button9Cont = 1;
     }
 //esta funcion permite llamar a la funcion
     public static void main(String[] args) {
