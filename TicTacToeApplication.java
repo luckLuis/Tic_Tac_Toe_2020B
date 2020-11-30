@@ -26,7 +26,7 @@ public class TicTacToeApplication extends Application {
     @Override
     public void start(Stage window) {
         GridPane layout = new GridPane();
-
+//botones del juego
         Button button1 = new Button(" ");
         Button button2 = new Button(" ");
         Button button3 = new Button(" ");
@@ -268,15 +268,15 @@ public class TicTacToeApplication extends Application {
 
     @Override
     public void stop() {
-        button1Index = 1;
-        button2Index = 1;
-        button3Index = 1;
-        button4Index = 1;
-        button5Index = 1;
-        button6Index = 1;
-        button7Index = 1;
-        button8Index = 1;
-        button9Index = 1;
+        button1Count = 1;
+        button2Count = 1;
+        button3Count = 1;
+        button4Count = 1;
+        button5Count = 1;
+        button6Count = 1;
+        button7Count = 1;
+        button8Count = 1;
+        button9Count = 1;
     }
 
     public static void main(String[] args) {
