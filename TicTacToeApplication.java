@@ -13,7 +13,6 @@ import javafx.stage.Stage;
 public class TicTacToeApplication extends Application {
 
     private boolean turn = true;
-<<<<<<< HEAD
     private int Bntnicial = 0;
     private int button2Count = 0;
     private int button3Count = 0;
@@ -23,17 +22,6 @@ public class TicTacToeApplication extends Application {
     private int button7Count = 0;
     private int button8Count = 0;
     private int button9Count = 0;
-=======
-    private int button1Index = 0;
-    private int button2Index = 0;
-    private int button3Index = 0;
-    private int button4Index = 0;
-    private int button5Index = 0;
-    private int button6Index = 0;
-    private int button7Index = 0;
-    private int button8Index = 0;
-    private int button9Index = 0;
->>>>>>> main
 
     @Override
     public void start(Stage window) {
@@ -245,10 +233,12 @@ public class TicTacToeApplication extends Application {
 
         Scene scene = new Scene(layout1);
         window.setScene(scene);
-        window.setTitle("Play: Tic Tac Toe");
+        window.setTitle("Tic Tac Toe App");
         window.show();
     }
 
+
+//botones para realizar comparacion
     public void compareButtons(Button btn1, Button btn2, Button btn3, Button btn4, Button btn5, Button btn6, Button btn7, Button btn8, Button btn9, Label text) {
 
         if ((((btn1.getText().equals(btn2.getText())) && (btn1.getText().equals(btn3.getText()))) && (btn1.getText() != " "))
@@ -261,8 +251,8 @@ public class TicTacToeApplication extends Application {
                 || (((btn7.getText().equals(btn5.getText())) && (btn5.getText().equals(btn3.getText()))) && (btn7.getText() != " "))) {
             text.setText("The end!");
             stop();
-        } else if (button1Index == 1 && button2Index == 1 && button3Index == 1 && button4Index == 1 && button5Index == 1 && button6Index == 1
-                && button7Index == 1 && button8Index == 1 && button9Index == 1) {
+        } else if (button1Count == 1 && button2Count == 1 && button3Count == 1 && button4Count == 1 && button5Count == 1 && button6Count == 1
+                && button7Count == 1 && button8Count == 1 && button9Count == 1) {
             text.setText("The end!");
         }
     }
@@ -290,7 +280,7 @@ public class TicTacToeApplication extends Application {
         button8Count = 1;
         button9Count = 1;
     }
-
+//esta funcion permite llamar a la funcion
     public static void main(String[] args) {
         launch(TicTacToeApplication.class);
     }
