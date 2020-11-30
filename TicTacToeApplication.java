@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 public class TicTacToeApplication extends Application {
 
     private boolean turn = true;
-    private int button1Count = 0;
+    private int Bntnicial = 0;
     private int button2Count = 0;
     private int button3Count = 0;
     private int button4Count = 0;
