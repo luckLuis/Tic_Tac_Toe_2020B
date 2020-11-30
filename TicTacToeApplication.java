@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 
 public class TicTacToeApplication extends Application {
 
+<<<<<<< HEAD
     private boolean turn = true;
     private int Bntnicial = 0;
     private int button2Count = 0;
@@ -22,6 +23,18 @@ public class TicTacToeApplication extends Application {
     private int button7Count = 0;
     private int button8Count = 0;
     private int button9Count = 0;
+=======
+    private boolean event = true;
+    private int button1Index = 0;
+    private int button2Index = 0;
+    private int button3Index = 0;
+    private int button4Index = 0;
+    private int button5Index = 0;
+    private int button6Index = 0;
+    private int button7Index = 0;
+    private int button8Index = 0;
+    private int button9Index = 0;
+>>>>>>> main
 
     @Override
     public void start(Stage window) {
@@ -47,7 +60,7 @@ public class TicTacToeApplication extends Application {
         button8.setFont(Font.font("Monospaced", 40));
         button9.setFont(Font.font("Monospaced", 40));
 
-        Label textTurn = new Label("Turno: " + textPlayer(this.turn));
+        Label textTurn = new Label("Turno: " + textPlayer(this.event));
         textTurn.setFont(Font.font("Monospaced", 40));
 
         layout.add(button1, 0, 0);
@@ -69,13 +82,13 @@ public class TicTacToeApplication extends Application {
                     button1.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event);
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button1.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button1Count++;
@@ -87,13 +100,13 @@ public class TicTacToeApplication extends Application {
                     button2.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event);
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button2.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button2Count++;
@@ -106,13 +119,13 @@ public class TicTacToeApplication extends Application {
 
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button3.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button3Count++;
@@ -124,7 +137,7 @@ public class TicTacToeApplication extends Application {
                     button4.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button4.setText("O");
