@@ -12,6 +12,18 @@ import javafx.stage.Stage;
 
 public class TicTacToeApplication extends Application {
 
+<<<<<<< HEAD
+    private boolean event = true;
+    private int button1Index = 0;
+    private int button2Index = 0;
+    private int button3Index = 0;
+    private int button4Index = 0;
+    private int button5Index = 0;
+    private int button6Index = 0;
+    private int button7Index = 0;
+    private int button8Index = 0;
+    private int button9Index = 0;
+=======
     private boolean turn = true;
     private int button1Cont = 0;
     private int button2Cont = 0;
@@ -22,6 +34,7 @@ public class TicTacToeApplication extends Application {
     private int button7Cont = 0;
     private int button8Cont = 0;
     private int button9Cont = 0;
+>>>>>>> main
 
     @Override
     public void start(Stage window) {
@@ -47,7 +60,7 @@ public class TicTacToeApplication extends Application {
         button8.setFont(Font.font("Monospaced", 40));
         button9.setFont(Font.font("Monospaced", 40));
 
-        Label textTurn = new Label("Turno: " + textPlayer(this.turn));
+        Label textTurn = new Label("Turno: " + textPlayer(this.event));
         textTurn.setFont(Font.font("Monospaced", 40));
 
         layout.add(button1, 0, 0);
@@ -69,13 +82,13 @@ public class TicTacToeApplication extends Application {
                     button1.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event);
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button1.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button1Count++;
@@ -87,13 +100,13 @@ public class TicTacToeApplication extends Application {
                     button2.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event);
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button2.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button2Count++;
@@ -106,13 +119,13 @@ public class TicTacToeApplication extends Application {
 
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button3.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button3Count++;
@@ -124,13 +137,13 @@ public class TicTacToeApplication extends Application {
                     button4.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button4.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button4Count++;
@@ -142,13 +155,13 @@ public class TicTacToeApplication extends Application {
                     button5.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button5.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button5Count++;
@@ -159,13 +172,13 @@ public class TicTacToeApplication extends Application {
                 if (turn) {
                     button6.setText("X");
                     changeTurn(true);
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button6.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button6Count++;
@@ -177,13 +190,13 @@ public class TicTacToeApplication extends Application {
                     button7.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button7.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button7Count++;
@@ -195,13 +208,13 @@ public class TicTacToeApplication extends Application {
                     button8.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button8.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                     this.button8Count++;
                 }
@@ -214,13 +227,13 @@ public class TicTacToeApplication extends Application {
                     button9.setText("X");
                     changeTurn(true);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 } else {
                     button9.setText("O");
                     changeTurn(false);
 
-                    textTurn.setText("Turno: " + textPlayer(this.turn));
+                    textTurn.setText("Turno: " + textPlayer(this.event));
                     compareButtons(button1, button2, button3, button4, button5, button6, button7, button8, button9, textTurn);
                 }
                 this.button9Count++;
@@ -233,7 +246,7 @@ public class TicTacToeApplication extends Application {
 
         Scene scene = new Scene(layout1);
         window.setScene(scene);
-        window.setTitle("Tic Tac Toe App");
+        window.setTitle("Play: Tic Tac Toe");
         window.show();
     }
 
@@ -249,14 +262,14 @@ public class TicTacToeApplication extends Application {
                 || (((btn7.getText().equals(btn5.getText())) && (btn5.getText().equals(btn3.getText()))) && (btn7.getText() != " "))) {
             text.setText("The end!");
             stop();
-        } else if (button1Count == 1 && button2Count == 1 && button3Count == 1 && button4Count == 1 && button5Count == 1 && button6Count == 1
-                && button7Count == 1 && button8Count == 1 && button9Count == 1) {
+        } else if (button1Index == 1 && button2Index == 1 && button3Index == 1 && button4Index == 1 && button5Index == 1 && button6Index == 1
+                && button7Index == 1 && button8Index == 1 && button9Index == 1) {
             text.setText("The end!");
         }
     }
 
-    public void changeTurn(boolean turn) {
-        this.turn = turn == false;
+    public void changeTurn(boolean events) {
+        this.turn = events == false;
     }
 
     public String textPlayer(boolean turn) {
@@ -268,6 +281,17 @@ public class TicTacToeApplication extends Application {
 
     @Override
     public void stop() {
+<<<<<<< HEAD
+        button1Index = 1;
+        button2Index = 1;
+        button3Index = 1;
+        button4Index = 1;
+        button5Index = 1;
+        button6Index = 1;
+        button7Index = 1;
+        button8Index = 1;
+        button9Index = 1;
+=======
         button1Cont = 1;
         button2Cont = 1;
         button3Cont = 1;
@@ -277,6 +301,7 @@ public class TicTacToeApplication extends Application {
         button7Cont = 1;
         button8Cont = 1;
         button9Cont = 1;
+>>>>>>> main
     }
 
     public static void main(String[] args) {
